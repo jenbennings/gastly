@@ -1,5 +1,7 @@
 {
   "name": "abode",
+  "homepage": "http://benjennin.gs",
+  "repository": "https://github.com/jenbennings/abode",
   "version": "0.0.1",
   "devDependencies": {
     "grunt": "0.4.2",
