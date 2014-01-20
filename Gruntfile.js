@@ -13,15 +13,15 @@ module.exports = function(grunt) {
     sass: {
       dev: {
         files: {
-          'assets/css/<%=pkg.name %>.css': 'assets/sass/<%=pkg.name %>.scss'
+          '<%=pkg.name %>.css': 'assets/sass/<%=pkg.name %>.scss'
         }
       }
     },
 
     autoprefixer: {
       single_file: {
-        src: 'assets/css/<%=pkg.name %>.css',
-        dest: 'assets/css/<%=pkg.name %>.css'
+        src: '<%=pkg.name %>.css',
+        dest: '<%=pkg.name %>.css'
       }
     }
 
