@@ -6,3 +6,6 @@ node_modules/
 
 # Sass cache
 .sass-cache/
+
+# CSS output
+assets/css/
