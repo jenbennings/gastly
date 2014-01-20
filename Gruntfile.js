@@ -23,6 +23,13 @@ module.exports = function(grunt) {
         src: '<%=pkg.name %>.css',
         dest: '<%=pkg.name %>.css'
       }
+    },
+
+    concat: {
+      js: {
+        src: ['assets/js/libs/*.js', 'assets/js/*.js'],
+        dest: '<%=pkg.name %>.js'
+      },
     }
 
   });
@@ -31,4 +38,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 }
