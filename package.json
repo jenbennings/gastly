@@ -1,8 +1,16 @@
 {
   "name": "abode",
-  "homepage": "http://benjennin.gs",
-  "repository": "https://github.com/jenbennings/abode",
   "version": "0.0.1",
+  "description": "",
+  "author": {
+        "name": "Ben Jennings",
+        "email": "ben@measured.com.au"
+  },
+  "github": "https://github.com/jenbennings/abode",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jenbennings/abode.git"
+  },
   "devDependencies": {
     "grunt": "0.4.2",
     "grunt-contrib-sass": "0.6.0",

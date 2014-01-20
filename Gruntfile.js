@@ -3,6 +3,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     watch: {
+      options: {
+        livereload: true
+      },
       files: ['assets/sass/*.scss'],
       tasks: 'sass:dev'
     },
@@ -13,7 +16,7 @@ module.exports = function(grunt) {
           'assets/css/<%=pkg.name %>.css': 'assets/sass/<%=pkg.name %>.scss'
         }
       }
-    }
+    },
 
     autoprefixer: {
       single_file: {
