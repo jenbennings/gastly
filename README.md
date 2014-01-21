@@ -12,7 +12,7 @@ My first attempt at a barebones theme for [Ghost](http://github.com/tryghost/gho
 
 ## Basic Installation
 
-$ cd "project directory"
-$ npm install // Grab Node.js dependencies
-$ grunt // Build the project
+$ cd "project directory"  
+$ npm install // Grab Node.js dependencies  
+$ grunt // Build the project  
 $ grunt watch // Watch for changes with Grunt
