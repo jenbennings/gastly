@@ -20,15 +20,15 @@ module.exports = function(grunt) {
 
     autoprefixer: {
       single_file: {
-        src: 'assets/css/<%=pkg.name %>.css',
-        dest: 'assets/css/<%=pkg.name %>.css'
+        src: '<%=pkg.name %>.css',
+        dest: '<%=pkg.name %>.css'
       }
     },
 
     concat: {
       js: {
         src: ['assets/js/libs/*.js', 'assets/js/*.js'],
-        dest: '<%=pkg.name %>.js'
+        dest: 'assets/js/<%=pkg.name %>.js'
       },
     }
 
