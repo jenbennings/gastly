@@ -19,17 +19,17 @@ $ cd ghost-#.#.#/content/themes/abode
 
 Install Node.js dependencies:
 ```
-$ npm install (grab Node.js dependencies)  
+$ npm install  
 ```
 
 Build the project:
 ```
-$ grunt (build the project)  
+$ grunt  
 ```
 
 Watch for changes with Grunt:
 ```
-$ grunt watch (watch for changes with Grunt)
+$ grunt watch
 ```
 
 ## Authors
