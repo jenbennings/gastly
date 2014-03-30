@@ -1,36 +1,14 @@
 # Abode
 
-A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that utilises our Grunt.js workflow. Getting this running requires a little bit of knowledge about Node/Grunt—most of which can be learnt from Ben Schwarz’s [Gallery CSS screencast](http://benschwarz.github.io/gallery-css/).
+A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that utilises our -Grunt.js- gulp.js workflow.
 
 ## Includes
 
-- [Normalize](http://necolas.github.io/normalize.css/)
-- [Sass compilation](https://github.com/gruntjs/grunt-contrib-sass)
-- [LiveReload](http://livereload.com/)
-- [JavaScript concatenation](https://github.com/gruntjs/grunt-contrib-concat)
-- [Autoprefixer](https://github.com/ai/autoprefixer)
+(not sure yet)
 
 ## Build Instructions
 
-cd into theme directory:
-```
-$ cd ghost-#.#.#/content/themes/abode  
-```
-
-Install Node.js dependencies:
-```
-$ npm install  
-```
-
-Build the project:
-```
-$ grunt  
-```
-
-Watch for changes with Grunt:
-```
-$ grunt watch
-```
+(not sure yet)
 
 ## Authors
 
