@@ -12,6 +12,9 @@
     "url": "git://github.com/jenbennings/abode.git"
   },
   "devDependencies": {
-    "gulp": "~3.6.0"
+    "gulp": "~3.6.0",
+    "gulp-sass": "~0.7.1",
+    "gulp-watch": "~0.5.3",
+    "gulp-livereload": "~1.2.0"
   }
 }
