@@ -1,6 +1,6 @@
 # Abode
 
-A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that utilises our ~~Grunt.js~~ gulp.js workflow.
+A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that uses ~~Grunt~~ gulp.
 
 ## Includes
 
@@ -10,8 +10,8 @@ A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that ut
 
 (not sure yet)
 
-## Authors
+## To do
 
-+ [Ben Jennings](http://benjennin.gs)
-+ [David Hauser](http://haustraliaer.com)
-
+- ~~Add sass task~~
+- Add watch task
+- Add livereload task
