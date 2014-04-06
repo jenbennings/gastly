@@ -1,6 +1,8 @@
+var gulp = require('gulp');
+var sass = require('gulp-sass')
 
-
-var gulp = require('gulp'),
-    watch = require('gulp-watch'),
-    sass = require('gulp-sass'),
-    livereload = require('gulp-livereload');
+gulp.task('sass', function () {
+    gulp.src('assets/sass/*.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('assets/css'));
+});
