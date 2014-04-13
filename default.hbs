@@ -13,11 +13,28 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    {{! Favicon }}
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    {{! Touch Icon }}
+    <link rel="apple-touch-icon-precomposed" href="{{asset apple-touch-icon-precomposed.png}}">
+
+    {{! Opengraph }}
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    {{! Twitter Card}}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/application.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
