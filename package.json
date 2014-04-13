@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "author": {
-        "name": "Ben Jennings",
-        "email": "ben@measured.com.au"
+    "name": "Ben Jennings",
+    "email": "mail@benjennin.gs"
   },
   "github": "https://github.com/jenbennings/abode",
   "repository": {
@@ -12,10 +12,9 @@
     "url": "git://github.com/jenbennings/abode.git"
   },
   "devDependencies": {
-    "grunt": "0.4.2",
-    "grunt-contrib-sass": "0.6.0",
-    "grunt-contrib-watch": "0.5.3",
-    "grunt-autoprefixer": "0.6.4",
-    "grunt-contrib-concat": "0.3.0"
+    "gulp": "~3.6.0",
+    "gulp-sass": "~0.7.1",
+    "gulp-watch": "~0.5.3",
+    "gulp-livereload": "~1.2.0"
   }
 }

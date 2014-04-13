@@ -1,43 +1,22 @@
 
-// Breakpoints ////////////////////////////////////////////////////////////////////////
+
+
+// Breakpoint Mixin
+// ---------------------------------------------------------------------------------------
+
 
 $mquery: false !default;
 
-$mob: 24em;
-$inbetween: 30em;
 $portrait: 48em;    // based on ipad ~ 768px
 $landscape: 64em;   // based on ipad ~ 1024px
-$wide: 80em;
 
 @mixin breakpoint($point) {
-
-   @if $point == mob {
-
-    $width: $mob;
-
-    @media (min-width: $width) {
-      $mquery: true;
-      @content;
-      $mquery: false;
-    }
-   }
-
-  @if $point == inbetween {
-
-    $width: $inbetween;
-
-    @media (min-width: $width) {
-      $mquery: true;
-      @content;
-      $mquery: false;
-    }
-  }
 
   @if $point == portrait {
 
     $width: $portrait;
 
-    @media (min-width: $width) {
+    @media (min-width: $width) { 
       $mquery: true;
       @content;
       $mquery: false;
@@ -48,32 +27,10 @@ $wide: 80em;
 
     $width: $landscape;
 
-    @media (min-width: $width) {
+    @media (min-width: $width) { 
       $mquery: true;
       @content;
       $mquery: false;
-    }
-  }
-
-  @if $point == pre-landscape {
-
-    $width: $landscape;
-
-    @media (max-width: $width) {
-      $mquery: true;
-      @content;
-      $mquery: false;
-    }
-  }
-
-  @else if $point == wide {
-
-    $width: $wide;
-
-    @media (min-width: $width) {
-      $mquery: true;
-      @content;
-      $mquery: false;
-    }
+    } 
   }
 }
