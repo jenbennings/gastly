@@ -1,6 +1,8 @@
-# Abode
+# Ghastly
 
-A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that uses ~~Grunt~~ gulp.
+![](http://cl.ly/image/00421y1Q000u/ghastly.gif)
+
+A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that uses a ~~Grunt~~ gulp workflow.
 
 ## Includes
 
@@ -13,5 +15,6 @@ A barebones starter theme for [Ghost](http://github.com/tryghost/ghost/) that us
 ## To do
 
 - ~~Add sass task~~
-- Add watch task
-- Add livereload task
+- ~~Add watch task~~
+- ~~Add livereload task~~
+- Add asset folder structure
