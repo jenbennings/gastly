@@ -1,4 +1,4 @@
-# Ghastly
+# Gastly
 
 ![](http://cl.ly/image/00421y1Q000u/ghastly.gif)
 
